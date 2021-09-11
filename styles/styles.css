@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background: linear-gradient(60deg, rgb(43, 43, 43), rgb(0, 0, 0));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+h1{
+    padding: 150px 75px;
+    font-size: 9rem;
+    background: linear-gradient(to right,#fff 0%, #999 10%, #000 50%, #999 90%, #fff 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 7s linear infinite;
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.class-button{
+    font-size: 2.5rem;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 150px;
+    bottom: 450px;
+    left: 1000px;
+    z-index: 1;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
